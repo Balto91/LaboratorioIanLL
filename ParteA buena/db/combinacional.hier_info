@@ -1,0 +1,8 @@
+|combinacional
+sw1 => a.IN0
+sw2 => a.IN1
+sw2 => led.IN0
+sw3 => led.IN1
+led <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+
