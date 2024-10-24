@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yo\Documents\Lab Ian\LaboratorioIanLL\ParteA buena\simulation\modelsim
+Ecombinacional
+Z1 w1729796313
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Yo\Documents\Lab Ian\LaboratorioIanLL\ParteA buena\simulation\modelsim
+Z5 8C:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/combinacional.vhd
+Z6 FC:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/combinacional.vhd
+l0
+L3
+VJ3JJRWljAS4>53iSC^98N2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1729798852.953000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/combinacional.vhd|
+Z10 !s107 C:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/combinacional.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 =hIWM?aX]LMDIzY9O2;kQ0
+!i10b 1
+Acomb
+R2
+R3
+DEx4 work 13 combinacional 0 22 J3JJRWljAS4>53iSC^98N2
+l11
+L9
+VGLaA@5U3hO?icDCbQ6JC@1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 VA4BN4j7igFY`Lj?STf^i0
+!i10b 1
+Etestbencha2
+Z13 w1729797423
+R2
+R3
+R4
+Z14 8C:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/TestbenchA2.vhd
+Z15 FC:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/TestbenchA2.vhd
+l0
+L3
+V>mQU_k@1C4`3z3^]^nLa;2
+!s100 0><i[dN8ic3FdN]b<l5AR1
+R7
+31
+!i10b 1
+Z16 !s108 1729798853.031000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/TestbenchA2.vhd|
+Z18 !s107 C:/Users/Yo/Documents/Lab Ian/LaboratorioIanLL/ParteA buena/TestbenchA2.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 11 testbencha2 0 22 >mQU_k@1C4`3z3^]^nLa;2
+l14
+L5
+V5mFU5VY<bk7X96]PfUnY;1
+!s100 >Bf4D3_c_RKe2R>0CKc6V2
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
