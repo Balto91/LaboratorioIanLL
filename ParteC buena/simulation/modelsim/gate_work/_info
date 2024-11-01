@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Documents\facultad\LaboratorioIanLL\ParteC buena\simulation\modelsim
+Efourbitsr
+Z1 w1730491366
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z8 dD:\Documents\facultad\LaboratorioIanLL\ParteC buena\simulation\modelsim
+Z9 8ParteC_7_1200mv_85c_slow.vho
+Z10 FParteC_7_1200mv_85c_slow.vho
+l0
+L34
+VJA:^P3z?l>KGk=o@HP<R>0
+Z11 OV;C;10.1d;51
+31
+Z12 !s108 1730491412.826000
+Z13 !s90 -reportprogress|300|-93|-work|work|ParteC_7_1200mv_85c_slow.vho|
+Z14 !s107 ParteC_7_1200mv_85c_slow.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 nLE_M9I51njhN?6Lo[=^G2
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 fourbitsr 0 22 JA:^P3z?l>KGk=o@HP<R>0
+l112
+L68
+VTGnSSYMb[^M4O8>e@6I>?1
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 oPTEVK6hZO8_9@>5_goJ@0
+!i10b 1
+Etestbench_fourbitsr
+Z17 w1730491336
+Z18 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R5
+R6
+R8
+Z19 8D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd
+Z20 FD:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd
+l0
+L5
+VAQZaRZW:HDCeA:?`:d6;F2
+!s100 d4lSXPN[Xje?cOLfVD^Bg0
+R11
+31
+!i10b 1
+Z21 !s108 1730491413.131000
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd|
+Z23 !s107 D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd|
+R15
+R16
+Abehavior
+R18
+R5
+R6
+DEx4 work 19 testbench_fourbitsr 0 22 AQZaRZW:HDCeA:?`:d6;F2
+l18
+L8
+VA[[jNzPHRCSfbJ<472CUe1
+!s100 z7F5CSEo27h@VQcP3`C1Y1
+R11
+31
+!i10b 1
+R21
+R22
+R23
+R15
+R16

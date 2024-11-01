@@ -1,0 +1,57 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ParteC_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {ParteC_7_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity fourbitsr
+# -- Compiling architecture structure of fourbitsr
+# 
+# vcom -93 -work work {D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench_fourbitsr
+# -- Compiling architecture behavior of testbench_fourbitsr
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /uut=ParteC_7_1200mv_85c_vhd_slow.sdo -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  testbench_fourbitr
+# vsim +transport_int_delays +transport_path_delays -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /uut=ParteC_7_1200mv_85c_vhd_slow.sdo -t 1ps testbench_fourbitr 
+# ** Error: (vsim-3170) Could not find 'D:/Documents/facultad/LaboratorioIanLL/ParteC buena/simulation/modelsim/gate_work.testbench_fourbitr'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./ParteC_run_msim_gate_vhdl.do PAUSED at line 12

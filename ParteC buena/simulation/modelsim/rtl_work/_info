@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Documents\facultad\LaboratorioIanLL\ParteC buena\simulation\modelsim
+Efourbitsr
+Z1 w1730482850
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\Documents\facultad\LaboratorioIanLL\ParteC buena\simulation\modelsim
+Z5 8D:/Documents/facultad/LaboratorioIanLL/ParteC buena/fourbitsr.vhd
+Z6 FD:/Documents/facultad/LaboratorioIanLL/ParteC buena/fourbitsr.vhd
+l0
+L4
+VP@b6ZOBkR3ThFC1SJ4aHE3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1730491384.369000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Documents/facultad/LaboratorioIanLL/ParteC buena/fourbitsr.vhd|
+Z10 !s107 D:/Documents/facultad/LaboratorioIanLL/ParteC buena/fourbitsr.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 l2I0n4nknfFK1?=HaZ;PQ2
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 9 fourbitsr 0 22 P@b6ZOBkR3ThFC1SJ4aHE3
+l16
+L8
+V8]<kHOH@]A>2:<Ri?idFa0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 RD4`X@fYe`N_20PoU`ji00
+!i10b 1
+Erestador
+Z13 w1730482476
+R2
+R3
+R4
+Z14 8D:/Documents/facultad/LaboratorioIanLL/ParteC buena/Restador.vhd
+Z15 FD:/Documents/facultad/LaboratorioIanLL/ParteC buena/Restador.vhd
+l0
+L4
+VNj[m^Y?l]T>>D_Coc@7YZ0
+R7
+31
+Z16 !s108 1730491384.190000
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Documents/facultad/LaboratorioIanLL/ParteC buena/Restador.vhd|
+Z18 !s107 D:/Documents/facultad/LaboratorioIanLL/ParteC buena/Restador.vhd|
+R11
+R12
+!s100 `0zc>AZJhXQZEAzWcn;:10
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 8 restador 0 22 Nj[m^Y?l]T>>D_Coc@7YZ0
+l10
+L9
+VnUPCZ]Im_hY14EU3:iPU:3
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 SeAg:A5X>HnINbfbDi2=a1
+!i10b 1
+Etestbench_fourbitsr
+Z19 w1730491336
+Z20 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z21 8D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd
+Z22 FD:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd
+l0
+L5
+VAQZaRZW:HDCeA:?`:d6;F2
+!s100 d4lSXPN[Xje?cOLfVD^Bg0
+R7
+31
+!i10b 1
+Z23 !s108 1730491384.556000
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd|
+Z25 !s107 D:/Documents/facultad/LaboratorioIanLL/ParteC buena/testbench_fourbitsr.vhd|
+R11
+R12
+Abehavior
+R20
+R2
+R3
+DEx4 work 19 testbench_fourbitsr 0 22 AQZaRZW:HDCeA:?`:d6;F2
+l18
+L8
+VA[[jNzPHRCSfbJ<472CUe1
+!s100 z7F5CSEo27h@VQcP3`C1Y1
+R7
+31
+!i10b 1
+R23
+R24
+R25
+R11
+R12

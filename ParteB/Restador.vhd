@@ -18,7 +18,7 @@ signal a_aux, b_aux, bin_aux, c_aux, bout_aux : std_logic;
 
 begin 
 c_aux <= a_aux xor b_aux xor bin_aux;
-bout_aux <= (a_aux and (not b_aux)) or (bin_aux and (a_aux or (not b_aux)));
+bout_aux <= (b_aux and (not a_aux)) or (bin_aux and (b_aux or (not a_aux)));
 	 
  d1: FFD port map (d => a, clk => clk, q => a_aux);
  d2: FFD port map (d => b, clk => clk, q => b_aux);

@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for ParteB
-Fri Oct 25 19:13:54 2024
+Fri Nov 01 12:53:10 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -143,7 +143,7 @@ HTML report is unavailable in plain text report export.
 +-------+--------+--------------------+
 ; Clock ; Slack  ; End Point TNS      ;
 +-------+--------+--------------------+
-; clk   ; -0.181 ; -0.359             ;
+; clk   ; -0.181 ; -0.336             ;
 +-------+--------+--------------------+
 
 
@@ -152,7 +152,7 @@ HTML report is unavailable in plain text report export.
 +-------+-------+--------------------+
 ; Clock ; Slack ; End Point TNS      ;
 +-------+-------+--------------------+
-; clk   ; 0.461 ; 0.000              ;
+; clk   ; 0.459 ; 0.000              ;
 +-------+-------+--------------------+
 
 
@@ -182,12 +182,12 @@ No paths to report.
 +--------+-----------+----------+--------------+-------------+--------------+------------+------------+
 ; Slack  ; From Node ; To Node  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-----------+----------+--------------+-------------+--------------+------------+------------+
-; -0.181 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.048     ; 1.151      ;
-; -0.178 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.048     ; 1.148      ;
-; 0.004  ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.966      ;
-; 0.040  ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.930      ;
-; 0.162  ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.808      ;
-; 0.168  ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.802      ;
+; -0.181 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.048     ; 1.151      ;
+; -0.155 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.048     ; 1.125      ;
+; 0.005  ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.965      ;
+; 0.007  ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.963      ;
+; 0.161  ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.809      ;
+; 0.164  ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.048     ; 0.806      ;
 +--------+-----------+----------+--------------+-------------+--------------+------------+------------+
 
 
@@ -196,12 +196,12 @@ No paths to report.
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 ; Slack ; From Node ; To Node  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
-; 0.461 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.695      ;
-; 0.469 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.703      ;
-; 0.583 ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.817      ;
-; 0.585 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.819      ;
-; 0.678 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.912      ;
-; 0.684 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.918      ;
+; 0.459 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.693      ;
+; 0.471 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.705      ;
+; 0.582 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.816      ;
+; 0.593 ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.827      ;
+; 0.680 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.914      ;
+; 0.708 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.048      ; 0.942      ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 
 
@@ -248,7 +248,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; a         ; clk        ; 2.849 ; 3.226 ; Rise       ; clk             ;
+; a         ; clk        ; 2.846 ; 3.223 ; Rise       ; clk             ;
 ; b         ; clk        ; 2.444 ; 2.846 ; Rise       ; clk             ;
 ; bin       ; clk        ; 2.867 ; 3.278 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
@@ -259,7 +259,7 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; a         ; clk        ; -2.410 ; -2.778 ; Rise       ; clk             ;
+; a         ; clk        ; -2.408 ; -2.776 ; Rise       ; clk             ;
 ; b         ; clk        ; -2.009 ; -2.391 ; Rise       ; clk             ;
 ; bin       ; clk        ; -2.414 ; -2.804 ; Rise       ; clk             ;
 +-----------+------------+--------+--------+------------+-----------------+
@@ -270,7 +270,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 6.235 ; 6.216 ; Rise       ; clk             ;
+; bout      ; clk        ; 6.946 ; 6.864 ; Rise       ; clk             ;
 ; c         ; clk        ; 6.394 ; 6.294 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -280,7 +280,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 6.085 ; 6.066 ; Rise       ; clk             ;
+; bout      ; clk        ; 6.767 ; 6.688 ; Rise       ; clk             ;
 ; c         ; clk        ; 6.238 ; 6.141 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -296,7 +296,7 @@ No synchronizer chains to report.
 +------------+-----------------+------------+---------------------------------------------------------------+
 ; Fmax       ; Restricted Fmax ; Clock Name ; Note                                                          ;
 +------------+-----------------+------------+---------------------------------------------------------------+
-; 947.87 MHz ; 250.0 MHz       ; clk        ; limit due to minimum period restriction (max I/O toggle rate) ;
+; 946.97 MHz ; 250.0 MHz       ; clk        ; limit due to minimum period restriction (max I/O toggle rate) ;
 +------------+-----------------+------------+---------------------------------------------------------------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -306,7 +306,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------+--------+-------------------+
 ; Clock ; Slack  ; End Point TNS     ;
 +-------+--------+-------------------+
-; clk   ; -0.055 ; -0.109            ;
+; clk   ; -0.056 ; -0.094            ;
 +-------+--------+-------------------+
 
 
@@ -345,12 +345,12 @@ No paths to report.
 +--------+-----------+----------+--------------+-------------+--------------+------------+------------+
 ; Slack  ; From Node ; To Node  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-----------+----------+--------------+-------------+--------------+------------+------------+
-; -0.055 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.044     ; 1.030      ;
-; -0.054 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.044     ; 1.029      ;
-; 0.105  ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.870      ;
-; 0.127  ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.848      ;
-; 0.243  ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.732      ;
-; 0.254  ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.721      ;
+; -0.056 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.044     ; 1.031      ;
+; -0.038 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.044     ; 1.013      ;
+; 0.108  ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.867      ;
+; 0.108  ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.867      ;
+; 0.242  ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.733      ;
+; 0.250  ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.044     ; 0.725      ;
 +--------+-----------+----------+--------------+-------------+--------------+------------+------------+
 
 
@@ -359,12 +359,12 @@ No paths to report.
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 ; Slack ; From Node ; To Node  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
-; 0.415 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.630      ;
-; 0.432 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.647      ;
-; 0.528 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.743      ;
-; 0.529 ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.744      ;
-; 0.618 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.833      ;
-; 0.625 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.840      ;
+; 0.415 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.630      ;
+; 0.434 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.649      ;
+; 0.527 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.742      ;
+; 0.542 ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.757      ;
+; 0.619 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.834      ;
+; 0.643 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.044      ; 0.858      ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 
 
@@ -411,7 +411,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; a         ; clk        ; 2.472 ; 2.728 ; Rise       ; clk             ;
+; a         ; clk        ; 2.469 ; 2.726 ; Rise       ; clk             ;
 ; b         ; clk        ; 2.100 ; 2.382 ; Rise       ; clk             ;
 ; bin       ; clk        ; 2.486 ; 2.758 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
@@ -422,7 +422,7 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; a         ; clk        ; -2.082 ; -2.330 ; Rise       ; clk             ;
+; a         ; clk        ; -2.079 ; -2.328 ; Rise       ; clk             ;
 ; b         ; clk        ; -1.713 ; -1.978 ; Rise       ; clk             ;
 ; bin       ; clk        ; -2.081 ; -2.337 ; Rise       ; clk             ;
 +-----------+------------+--------+--------+------------+-----------------+
@@ -433,7 +433,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 6.010 ; 5.911 ; Rise       ; clk             ;
+; bout      ; clk        ; 6.680 ; 6.487 ; Rise       ; clk             ;
 ; c         ; clk        ; 6.161 ; 5.984 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -443,7 +443,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 5.873 ; 5.777 ; Rise       ; clk             ;
+; bout      ; clk        ; 6.516 ; 6.330 ; Rise       ; clk             ;
 ; c         ; clk        ; 6.017 ; 5.846 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -459,7 +459,7 @@ No synchronizer chains to report.
 +-------+-------+--------------------+
 ; Clock ; Slack ; End Point TNS      ;
 +-------+-------+--------------------+
-; clk   ; 0.434 ; 0.000              ;
+; clk   ; 0.435 ; 0.000              ;
 +-------+-------+--------------------+
 
 
@@ -468,7 +468,7 @@ No synchronizer chains to report.
 +-------+-------+-------------------+
 ; Clock ; Slack ; End Point TNS     ;
 +-------+-------+-------------------+
-; clk   ; 0.209 ; 0.000             ;
+; clk   ; 0.210 ; 0.000             ;
 +-------+-------+-------------------+
 
 
@@ -498,12 +498,12 @@ No paths to report.
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 ; Slack ; From Node ; To Node  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
-; 0.434 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.549      ;
-; 0.436 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.547      ;
-; 0.529 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.454      ;
-; 0.555 ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.428      ;
-; 0.604 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.379      ;
-; 0.604 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.379      ;
+; 0.435 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.548      ;
+; 0.447 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.536      ;
+; 0.531 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.452      ;
+; 0.531 ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.452      ;
+; 0.600 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.383      ;
+; 0.605 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 1.000        ; -0.024     ; 0.378      ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 
 
@@ -512,12 +512,12 @@ No paths to report.
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 ; Slack ; From Node ; To Node  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
-; 0.209 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.317      ;
-; 0.211 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.319      ;
+; 0.210 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.318      ;
+; 0.211 ; FFD:d4|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.319      ;
+; 0.268 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.376      ;
 ; 0.269 ; FFD:d2|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.377      ;
-; 0.271 ; FFD:d1|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.379      ;
-; 0.311 ; FFD:d2|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.419      ;
-; 0.315 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.423      ;
+; 0.313 ; FFD:d4|q  ; FFD:d3|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.421      ;
+; 0.323 ; FFD:d1|q  ; FFD:d5|q ; clk          ; clk         ; 0.000        ; 0.024      ; 0.431      ;
 +-------+-----------+----------+--------------+-------------+--------------+------------+------------+
 
 
@@ -564,7 +564,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; a         ; clk        ; 1.480 ; 2.113 ; Rise       ; clk             ;
+; a         ; clk        ; 1.478 ; 2.111 ; Rise       ; clk             ;
 ; b         ; clk        ; 1.323 ; 1.968 ; Rise       ; clk             ;
 ; bin       ; clk        ; 1.494 ; 2.176 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
@@ -575,7 +575,7 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; a         ; clk        ; -1.268 ; -1.891 ; Rise       ; clk             ;
+; a         ; clk        ; -1.266 ; -1.889 ; Rise       ; clk             ;
 ; b         ; clk        ; -1.114 ; -1.742 ; Rise       ; clk             ;
 ; bin       ; clk        ; -1.277 ; -1.940 ; Rise       ; clk             ;
 +-----------+------------+--------+--------+------------+-----------------+
@@ -586,7 +586,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 3.217 ; 3.330 ; Rise       ; clk             ;
+; bout      ; clk        ; 3.539 ; 3.681 ; Rise       ; clk             ;
 ; c         ; clk        ; 3.270 ; 3.375 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -596,7 +596,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 3.143 ; 3.252 ; Rise       ; clk             ;
+; bout      ; clk        ; 3.453 ; 3.589 ; Rise       ; clk             ;
 ; c         ; clk        ; 3.194 ; 3.296 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -612,10 +612,10 @@ No synchronizer chains to report.
 +------------------+--------+-------+----------+---------+---------------------+
 ; Clock            ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +------------------+--------+-------+----------+---------+---------------------+
-; Worst-case Slack ; -0.181 ; 0.209 ; N/A      ; N/A     ; -3.000              ;
-;  clk             ; -0.181 ; 0.209 ; N/A      ; N/A     ; -3.000              ;
-; Design-wide TNS  ; -0.359 ; 0.0   ; 0.0      ; 0.0     ; -9.425              ;
-;  clk             ; -0.359 ; 0.000 ; N/A      ; N/A     ; -9.425              ;
+; Worst-case Slack ; -0.181 ; 0.210 ; N/A      ; N/A     ; -3.000              ;
+;  clk             ; -0.181 ; 0.210 ; N/A      ; N/A     ; -3.000              ;
+; Design-wide TNS  ; -0.336 ; 0.0   ; 0.0      ; 0.0     ; -9.425              ;
+;  clk             ; -0.336 ; 0.000 ; N/A      ; N/A     ; -9.425              ;
 +------------------+--------+-------+----------+---------+---------------------+
 
 
@@ -624,7 +624,7 @@ No synchronizer chains to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; a         ; clk        ; 2.849 ; 3.226 ; Rise       ; clk             ;
+; a         ; clk        ; 2.846 ; 3.223 ; Rise       ; clk             ;
 ; b         ; clk        ; 2.444 ; 2.846 ; Rise       ; clk             ;
 ; bin       ; clk        ; 2.867 ; 3.278 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
@@ -635,7 +635,7 @@ No synchronizer chains to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; a         ; clk        ; -1.268 ; -1.891 ; Rise       ; clk             ;
+; a         ; clk        ; -1.266 ; -1.889 ; Rise       ; clk             ;
 ; b         ; clk        ; -1.114 ; -1.742 ; Rise       ; clk             ;
 ; bin       ; clk        ; -1.277 ; -1.940 ; Rise       ; clk             ;
 +-----------+------------+--------+--------+------------+-----------------+
@@ -646,7 +646,7 @@ No synchronizer chains to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 6.235 ; 6.216 ; Rise       ; clk             ;
+; bout      ; clk        ; 6.946 ; 6.864 ; Rise       ; clk             ;
 ; c         ; clk        ; 6.394 ; 6.294 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -656,7 +656,7 @@ No synchronizer chains to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; bout      ; clk        ; 3.143 ; 3.252 ; Rise       ; clk             ;
+; bout      ; clk        ; 3.453 ; 3.589 ; Rise       ; clk             ;
 ; c         ; clk        ; 3.194 ; 3.296 ; Rise       ; clk             ;
 +-----------+------------+-------+-------+------------+-----------------+
 
@@ -764,7 +764,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 25 19:13:52 2024
+    Info: Processing started: Fri Nov 01 12:53:07 2024
 Info: Command: quartus_sta ParteB -c ParteB
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -784,11 +784,11 @@ Critical Warning (332148): Timing requirements not met
 Info (332146): Worst-case setup slack is -0.181
     Info (332119):     Slack End Point TNS Clock 
     Info (332119): ========= ============= =====================
-    Info (332119):    -0.181        -0.359 clk 
-Info (332146): Worst-case hold slack is 0.461
+    Info (332119):    -0.181        -0.336 clk 
+Info (332146): Worst-case hold slack is 0.459
     Info (332119):     Slack End Point TNS Clock 
     Info (332119): ========= ============= =====================
-    Info (332119):     0.461         0.000 clk 
+    Info (332119):     0.459         0.000 clk 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -3.000
@@ -801,10 +801,10 @@ Info (334004): Delay annotation completed successfully
 Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
-Info (332146): Worst-case setup slack is -0.055
+Info (332146): Worst-case setup slack is -0.056
     Info (332119):     Slack End Point TNS Clock 
     Info (332119): ========= ============= =====================
-    Info (332119):    -0.055        -0.109 clk 
+    Info (332119):    -0.056        -0.094 clk 
 Info (332146): Worst-case hold slack is 0.415
     Info (332119):     Slack End Point TNS Clock 
     Info (332119): ========= ============= =====================
@@ -817,14 +817,14 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
     Info (332119):    -3.000        -9.425 clk 
 Info: Analyzing Fast 1200mV 0C Model
 Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
-Info (332146): Worst-case setup slack is 0.434
+Info (332146): Worst-case setup slack is 0.435
     Info (332119):     Slack End Point TNS Clock 
     Info (332119): ========= ============= =====================
-    Info (332119):     0.434         0.000 clk 
-Info (332146): Worst-case hold slack is 0.209
+    Info (332119):     0.435         0.000 clk 
+Info (332146): Worst-case hold slack is 0.210
     Info (332119):     Slack End Point TNS Clock 
     Info (332119): ========= ============= =====================
-    Info (332119):     0.209         0.000 clk 
+    Info (332119):     0.210         0.000 clk 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Critical Warning (332148): Timing requirements not met
@@ -837,8 +837,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4639 megabytes
-    Info: Processing ended: Fri Oct 25 19:13:54 2024
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Fri Nov 01 12:53:10 2024
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 
 
