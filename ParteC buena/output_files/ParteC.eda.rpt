@@ -1,5 +1,5 @@
 EDA Netlist Writer report for ParteC
-Fri Nov 01 17:02:46 2024
+Tue Nov 05 18:33:17 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Nov 01 17:02:46 2024 ;
+; EDA Netlist Writer Status ; Successful - Tue Nov 05 18:33:17 2024 ;
 ; Revision Name             ; ParteC                                ;
 ; Top-level Entity Name     ; fourbitsr                             ;
 ; Family                    ; Cyclone III                           ;
@@ -88,7 +88,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Nov 01 17:02:46 2024
+    Info: Processing started: Tue Nov 05 18:33:16 2024
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off ParteC -c ParteC
 Info (204019): Generated file ParteC_7_1200mv_85c_slow.vho in folder "D:/Documents/facultad/LaboratorioIanLL/ParteC buena/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file ParteC_7_1200mv_0c_slow.vho in folder "D:/Documents/facultad/LaboratorioIanLL/ParteC buena/simulation/modelsim/" for EDA simulation tool
@@ -99,9 +99,9 @@ Info (204019): Generated file ParteC_7_1200mv_0c_vhd_slow.sdo in folder "D:/Docu
 Info (204019): Generated file ParteC_min_1200mv_0c_vhd_fast.sdo in folder "D:/Documents/facultad/LaboratorioIanLL/ParteC buena/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file ParteC_vhd.sdo in folder "D:/Documents/facultad/LaboratorioIanLL/ParteC buena/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4527 megabytes
-    Info: Processing ended: Fri Nov 01 17:02:46 2024
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4516 megabytes
+    Info: Processing ended: Tue Nov 05 18:33:17 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ParteC
-Fri Nov 01 17:02:20 2024
+Tue Nov 05 18:32:52 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -42,16 +42,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Nov 01 17:02:20 2024           ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov 05 18:32:52 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ParteC                                          ;
 ; Top-level Entity Name              ; fourbitsr                                       ;
 ; Family                             ; Cyclone III                                     ;
-; Total logic elements               ; 7                                               ;
+; Total logic elements               ; 15                                              ;
 ;     Total combinational functions  ; 7                                               ;
-;     Dedicated logic registers      ; 0                                               ;
-; Total registers                    ; 0                                               ;
-; Total pins                         ; 13                                              ;
+;     Dedicated logic registers      ; 13                                              ;
+; Total registers                    ; 13                                              ;
+; Total pins                         ; 14                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -164,37 +164,38 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
 ; Restador.vhd                     ; yes             ; User VHDL File  ; D:/Documents/facultad/LaboratorioIanLL/ParteC buena/Restador.vhd  ;         ;
 ; fourbitsr.vhd                    ; yes             ; User VHDL File  ; D:/Documents/facultad/LaboratorioIanLL/ParteC buena/fourbitsr.vhd ;         ;
+; FFD.vhd                          ; yes             ; User VHDL File  ; D:/Documents/facultad/LaboratorioIanLL/ParteC buena/FFD.vhd       ;         ;
 +----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
 
 
-+-------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary           ;
-+---------------------------------------------+---------+
-; Resource                                    ; Usage   ;
-+---------------------------------------------+---------+
-; Estimated Total logic elements              ; 7       ;
-;                                             ;         ;
-; Total combinational functions               ; 7       ;
-; Logic element usage by number of LUT inputs ;         ;
-;     -- 4 input functions                    ; 2       ;
-;     -- 3 input functions                    ; 4       ;
-;     -- <=2 input functions                  ; 1       ;
-;                                             ;         ;
-; Logic elements by mode                      ;         ;
-;     -- normal mode                          ; 7       ;
-;     -- arithmetic mode                      ; 0       ;
-;                                             ;         ;
-; Total registers                             ; 0       ;
-;     -- Dedicated logic registers            ; 0       ;
-;     -- I/O registers                        ; 0       ;
-;                                             ;         ;
-; I/O pins                                    ; 13      ;
-; Embedded Multiplier 9-bit elements          ; 0       ;
-; Maximum fan-out node                        ; q~input ;
-; Maximum fan-out                             ; 3       ;
-; Total fan-out                               ; 40      ;
-; Average fan-out                             ; 1.21    ;
-+---------------------------------------------+---------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 15        ;
+;                                             ;           ;
+; Total combinational functions               ; 7         ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 2         ;
+;     -- 3 input functions                    ; 4         ;
+;     -- <=2 input functions                  ; 1         ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 7         ;
+;     -- arithmetic mode                      ; 0         ;
+;                                             ;           ;
+; Total registers                             ; 13        ;
+;     -- Dedicated logic registers            ; 13        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 14        ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 13        ;
+; Total fan-out                               ; 67        ;
+; Average fan-out                             ; 1.40      ;
++---------------------------------------------+-----------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -202,7 +203,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name    ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------+--------------+
-; |fourbitsr                 ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 13   ; 0            ; |fourbitsr             ; work         ;
+; |fourbitsr                 ; 7 (0)             ; 13 (0)       ; 0           ; 0            ; 0       ; 0         ; 14   ; 0            ; |fourbitsr             ; work         ;
+;    |FFD:ff_bout|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_bout ; work         ;
+;    |FFD:ff_e|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_e    ; work         ;
+;    |FFD:ff_i|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_i    ; work         ;
+;    |FFD:ff_n|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_n    ; work         ;
+;    |FFD:ff_o|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_o    ; work         ;
+;    |FFD:ff_q|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_q    ; work         ;
+;    |FFD:ff_r|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_r    ; work         ;
+;    |FFD:ff_u|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_u    ; work         ;
+;    |FFD:ff_v|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_v    ; work         ;
+;    |FFD:ff_w|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_w    ; work         ;
+;    |FFD:ff_x|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_x    ; work         ;
+;    |FFD:ff_y|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_y    ; work         ;
+;    |FFD:ff_z|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|FFD:ff_z    ; work         ;
 ;    |Restador:c1|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|Restador:c1 ; work         ;
 ;    |Restador:c2|           ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|Restador:c2 ; work         ;
 ;    |Restador:c3|           ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fourbitsr|Restador:c3 ; work         ;
@@ -216,7 +230,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 13    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -250,7 +264,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Nov 01 17:02:17 2024
+    Info: Processing started: Tue Nov 05 18:32:50 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ParteC -c ParteC
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file restador.vhd
@@ -264,19 +278,23 @@ Info (12021): Found 1 design units, including 1 entities, in source file esquema
 Info (12021): Found 2 design units, including 1 entities, in source file testbench_fourbitsr.vhd
     Info (12022): Found design unit 1: testbench_fourbitsr-behavior
     Info (12023): Found entity 1: testbench_fourbitsr
+Info (12021): Found 2 design units, including 1 entities, in source file ffd.vhd
+    Info (12022): Found design unit 1: FFD-behavioral
+    Info (12023): Found entity 1: FFD
 Info (12127): Elaborating entity "fourbitsr" for the top level hierarchy
+Info (12128): Elaborating entity "FFD" for hierarchy "FFD:ff_q"
 Info (12128): Elaborating entity "Restador" for hierarchy "Restador:c1"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 20 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 8 input pins
+Info (21057): Implemented 29 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
     Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 7 logic cells
+    Info (21061): Implemented 15 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4641 megabytes
-    Info: Processing ended: Fri Nov 01 17:02:20 2024
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 4637 megabytes
+    Info: Processing ended: Tue Nov 05 18:32:52 2024
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 
