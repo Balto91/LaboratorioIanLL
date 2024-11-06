@@ -1,7 +1,7 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY I2C IS
+ENTITY DiragramaI2C IS
     PORT (
         reset : IN STD_LOGIC := '0';
         clock : IN STD_LOGIC;
@@ -13,7 +13,7 @@ ENTITY I2C IS
         Hab_Dat : OUT STD_LOGIC;
         A_C_K : OUT STD_LOGIC
     );
-END I2C;
+END DiragramaI2C;
 
 ARCHITECTURE BEHAVIOR OF I2C IS
     TYPE type_fstate IS (Idle,Start,GuadaDir,RW,ACK,GuardaDato);

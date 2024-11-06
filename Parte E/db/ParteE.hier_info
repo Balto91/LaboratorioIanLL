@@ -1,0 +1,27 @@
+|DiragramaI2C
+reset => reg_fstate.Idle.OUTPUTSELECT
+reset => reg_fstate.Start.OUTPUTSELECT
+reset => reg_fstate.GuadaDir.OUTPUTSELECT
+reset => reg_fstate.RW.OUTPUTSELECT
+reset => reg_fstate.ACK.OUTPUTSELECT
+reset => reg_fstate.GuardaDato.OUTPUTSELECT
+reset => Hab_Dir.OUTPUTSELECT
+reset => Hab_Dat.OUTPUTSELECT
+reset => A_C_K.OUTPUTSELECT
+clock => fstate~1.DATAIN
+SDA => Selector0.IN4
+SDA => reg_fstate.DATAB
+fin_dir => process_1.IN0
+fin_dir => process_1.IN0
+fin_dir => reg_fstate.OUTPUTSELECT
+fin_dir => reg_fstate.OUTPUTSELECT
+fin_dir => reg_fstate.OUTPUTSELECT
+soy => process_1.IN1
+soy => process_1.IN1
+fin_dato => Selector0.IN2
+fin_dato => Selector2.IN2
+Hab_Dir <= Hab_Dir.DB_MAX_OUTPUT_PORT_TYPE
+Hab_Dat <= Hab_Dat.DB_MAX_OUTPUT_PORT_TYPE
+A_C_K <= A_C_K.DB_MAX_OUTPUT_PORT_TYPE
+
+
