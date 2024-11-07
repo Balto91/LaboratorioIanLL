@@ -2,5 +2,6 @@
 <LOG_ROOT>
 	<PROJECT NAME="ParteF">
 		<CBX_INST_ENTRY INSTANCE_NAME="|Divisor|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_01p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Divisor|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_efh.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
