@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Wed Nov 06 21:39:29 2024
+Analysis & Synthesis Status : Successful - Thu Nov 07 10:57:57 2024
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : ParteF
 Top-level Entity Name : Divisor
 Family : Cyclone III
-Total logic elements : 1,432
-    Total combinational functions : 1,432
+Total logic elements : 1,431
+    Total combinational functions : 1,431
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 22
+Total pins : 21
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

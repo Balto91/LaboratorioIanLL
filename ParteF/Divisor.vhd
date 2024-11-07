@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity Divisor is
 port(a : in std_logic_vector(5 downto 0);--a(4,2)
 b:  in std_logic_vector(5 downto 0);-- b(3,3)
-c: out std_logic_vector(9 downto 0));--c(7,2) 
+c: out std_logic_vector(8 downto 0));--c(7,2) 
 end Divisor;
 
 architecture behavioral of Divisor is
