@@ -42,20 +42,20 @@ end process;
 
 stim_proc: process
 begin
-			-- Initialize inputs
+			
         reset <= '1';
         wait for clock_period;
         reset <= '0';
 
-        -- Test case 1: Initial state with x = 0
+        -- Test caso 1
         x <= '0';
         wait for 3*clock_period;
 
-        -- Test case 2: Transition with x = 1
+        -- Test caso 2
         x <= '1';
         wait for 3*clock_period;
 
-        -- Test case 3: Reset and observe
+        -- Test caso 3
         reset <= '1';
         wait for clock_period;
         reset <= '0';

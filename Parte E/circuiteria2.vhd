@@ -31,12 +31,12 @@ end component;
             clk    : in std_logic;
             enable : in std_logic;
             sr_in  : in std_logic;
-            sr_out : out std_logic_vector(7 downto 0) 
+            sr_out : out std_logic_vector(6 downto 0) 
         );
     end component;
 
     signal X       : std_logic;  --Señal de salida de la and 
-    signal sr_out  : std_logic_vector(7 downto 0 );  -- Señal para la salida del registro de desplazamiento
+    signal sr_out  : std_logic_vector(6 downto 0 );  -- Señal para la salida del registro de desplazamiento
 
 begin
 

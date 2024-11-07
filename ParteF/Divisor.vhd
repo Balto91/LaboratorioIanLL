@@ -17,7 +17,7 @@ signal cint: integer;
 begin 
 aritmetica: process (a,b) is 
 begin 
-aint <= to_integer(unsigned(a))*1000;
+aint <= to_integer(unsigned(a))*8;-- aca escalo para poder hacer la division 
 bint <= to_integer(unsigned(b));
 
        if bint /= 0 then

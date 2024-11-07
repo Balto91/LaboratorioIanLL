@@ -1,4 +1,12 @@
-|DiragramaI2C
+|esquematicoI2C
+clock => I2C:inst.clock
+clock => circuiteria2:inst3.clock
+clock => circuiteria1:inst2.clock
+SDA => I2C:inst.SDA
+SDA => circuiteria2:inst3.SDA
+
+
+|esquematicoI2C|I2C:inst
 reset => reg_fstate.Idle.OUTPUTSELECT
 reset => reg_fstate.Start.OUTPUTSELECT
 reset => reg_fstate.GuadaDir.OUTPUTSELECT
@@ -23,5 +31,109 @@ fin_dato => Selector2.IN2
 Hab_Dir <= Hab_Dir.DB_MAX_OUTPUT_PORT_TYPE
 Hab_Dat <= Hab_Dat.DB_MAX_OUTPUT_PORT_TYPE
 A_C_K <= A_C_K.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematicoI2C|circuiteria2:inst3
+Hab_Dir => X.IN0
+clock => X.IN1
+SDA => basic_shift_register7:R.sr_in
+fin_dir <= binary_counter7:BC.q
+soy <= comparador:c.salida
+
+
+|esquematicoI2C|circuiteria2:inst3|binary_counter7:BC
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+reset => cnt.OUTPUTSELECT
+reset => cnt.OUTPUTSELECT
+reset => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+q <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematicoI2C|circuiteria2:inst3|basic_shift_register7:R
+clk => sr[0].CLK
+clk => sr[1].CLK
+clk => sr[2].CLK
+clk => sr[3].CLK
+clk => sr[4].CLK
+clk => sr[5].CLK
+clk => sr[6].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+enable => sr[2].ENA
+enable => sr[3].ENA
+enable => sr[4].ENA
+enable => sr[5].ENA
+enable => sr[6].ENA
+sr_in => sr[0].DATAIN
+sr_out[0] <= sr[0].DB_MAX_OUTPUT_PORT_TYPE
+sr_out[1] <= sr[1].DB_MAX_OUTPUT_PORT_TYPE
+sr_out[2] <= sr[2].DB_MAX_OUTPUT_PORT_TYPE
+sr_out[3] <= sr[3].DB_MAX_OUTPUT_PORT_TYPE
+sr_out[4] <= sr[4].DB_MAX_OUTPUT_PORT_TYPE
+sr_out[5] <= sr[5].DB_MAX_OUTPUT_PORT_TYPE
+sr_out[6] <= sr[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematicoI2C|circuiteria2:inst3|comparador:c
+A[0] => Equal0.IN6
+A[1] => Equal0.IN5
+A[2] => Equal0.IN4
+A[3] => Equal0.IN3
+A[4] => Equal0.IN2
+A[5] => Equal0.IN1
+A[6] => Equal0.IN0
+B[0] => Equal0.IN13
+B[1] => Equal0.IN12
+B[2] => Equal0.IN11
+B[3] => Equal0.IN10
+B[4] => Equal0.IN9
+B[5] => Equal0.IN8
+B[6] => Equal0.IN7
+salida <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematicoI2C|circuiteria1:inst2
+Hab_Dir => X.IN0
+clock => X.IN1
+fin_dato <= binary_counter:BC.q
+
+
+|esquematicoI2C|circuiteria1:inst2|binary_counter:BC
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+reset => cnt.OUTPUTSELECT
+reset => cnt.OUTPUTSELECT
+reset => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+enable => cnt.OUTPUTSELECT
+q <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|esquematicoI2C|circuiteria1:inst2|basic_shift_register:R
+clk => sr[0].CLK
+clk => sr[1].CLK
+clk => sr[2].CLK
+clk => sr[3].CLK
+clk => sr[4].CLK
+clk => sr[5].CLK
+clk => sr[6].CLK
+clk => sr[7].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+enable => sr[2].ENA
+enable => sr[3].ENA
+enable => sr[4].ENA
+enable => sr[5].ENA
+enable => sr[6].ENA
+enable => sr[7].ENA
+sr_in => sr[0].DATAIN
+sr_out <= sr[7].DB_MAX_OUTPUT_PORT_TYPE
 
 

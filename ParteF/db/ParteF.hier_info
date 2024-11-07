@@ -1,10 +1,10 @@
 |Divisor
-a[0] => Mult0.IN15
-a[1] => Mult0.IN14
-a[2] => Mult0.IN13
-a[3] => Mult0.IN12
-a[4] => Mult0.IN11
-a[5] => Mult0.IN10
+a[0] => Div0.IN57
+a[1] => Div0.IN56
+a[2] => Div0.IN55
+a[3] => Div0.IN54
+a[4] => Div0.IN53
+a[5] => Div0.IN52
 b[0] => Div0.IN63
 b[0] => Equal0.IN31
 b[1] => Div0.IN62
